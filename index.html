@@ -1,0 +1,230 @@
+<head>
+     <style>
+      body {
+         background-color: rgb(30, 35, 41);
+      }
+   </style>
+<style>
+   {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+}
+</style>
+<style>
+  .appbox {
+  transition: box-shadow .3s;
+  border-radius:15px;
+  -webkit-border-radius:40px;-moz-border-radius:40px;
+  width:24%;
+  float:center;
+  background-color:#69A4FF;
+  margin: auto;
+  padding:10px;
+  text-align:center;
+}
+.creatorbox {
+font-size: 10px;
+color:#454545;
+}
+.imgbox {
+vertical-align:middle;
+height:55px;
+border-radius: 50%;
+}
+.appbox:hover {
+  box-shadow: 0 0 30px rgba(38, 76, 137, 0.9); 
+}
+.titlebox {
+display: block; margin-left: auto; margin-right: auto; width: 20%; padding: 0px;
+}
+.blank {
+display: block; margin-left: auto; margin-right: auto; width: 10%; padding: 0px;
+}
+</style>
+</head>
+<link rel="stylesheet" href="../scss/global.processed.css">
+  <link rel="manifest" href="../manifest.json">
+<font face="Montserrat" size="5px" color="#1E1E1E"</font>
+<style>
+  a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+@font-face { font-family: Montserrat; src: url('Montserrat-SemiBold.ttf'); } 
+</style>
+<script
+  document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey) {
+        event.preventDefault();
+      </script>
+<script
+  language="JavaScript">
+function disableCtrlKeyCombination(e)
+{
+//list all CTRL + key combinations you want to disable
+var forbiddenKeys = new Array('i', 'n', 'c', 'x', 'v', 'j' , 'w');
+var key;
+var isCtrl;
+if(window.event)
+{
+key = window.event.keyCode;     //IE
+if(window.event.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+else
+{
+key = e.which;     //firefox
+if(e.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+//if ctrl is pressed check if other key is in forbidenKeys array
+if(isCtrl)
+{
+for(i=0; i<forbiddenKeys.length; i++)
+{
+//case-insensitive comparation
+if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+{
+alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
+return false;
+}
+}
+}
+return true;
+}
+</script>
+<body  onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);" oncontextmenu="return false" onselectstart="return false" ondragstart="return false" </body>
+<body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+</style>
+  
+    
+  <style>
+* {
+    color: black; 
+    font-family: Montserrat;
+    text-align: center;
+}
+  
+#button {
+  transition: box-shadow .3s;
+  border-radius:15px;
+  -webkit-border-radius:40px;-moz-border-radius:40px;
+  width:24%;
+  float:center;
+  background-color:#69A4FF;
+  margin: auto;
+  padding:10px;
+  text-align:center;
+}
+
+#button:hover {
+  box-shadow: 0 0 30px rgba(38, 76, 137, 0.9); 
+}
+  </style></head>
+  
+  <body>
+    &nbsp;
+    <img src="sonarfull.png" style="width:430px;height:157px;">
+&nbsp;
+&nbsp;
+    <div id="button" onclick="openGame()">Open in New Tab</div>
+    
+    <script>
+   
+        function openGame () {
+
+var url = "https://olexos.jacsyn.repl.co";
+
+if (url) {
+    var win;
+
+    document.querySelector('#button').onclick = function() {
+        if (win) {
+            win.focus(); // Fishy wont swim 
+        } 
+        else {
+            
+            if (window.chrome) {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100%';
+            win.document.title = 'New Tab';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.loading = 'lazy';
+            iframe.allowFullscreen = true;
+            iframe.allowpaymentrequest = true;
+            iframe.allow = 'camera;microphone';
+            iframe.src = url;
+            win.document.body.appendChild(iframe).focus();
+        }
+            else {
+                document.querySelector('#button').innerHTML = "error";
+            }
+        }
+        document.querySelector('#button').style.background='#51597C';
+        document.querySelector('#button').innerHTML="Open OlexOS";
+    };
+
+  }
+
+
+
+
+}
+
+
+
+    </script>
+
+  
+
+</body></html>
+
+  
+&nbsp;
+<!-- START BOX -->
+<div class="appbox">
+  <a </a>
+ <a href="./open.html" target="_self" >‏‏‎ ‎Open in this Site</a>
+</div>
+‏‏‎ ‎
+<!-- END BOX -->
+
+
+
+
+
+
+  
+</body>
+    <script type="text/javascript">
+        function search(string){
+window.find(string);
+}
+    </script>
+<script>
+var input = document.getElementById("search");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("searchstore").click();
+  }
+});
+</script>
+      <script src="../js/jquery.js"></script>
+  <script src="../js/global.js"></script>
