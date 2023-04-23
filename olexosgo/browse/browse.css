@@ -1,0 +1,80 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+@font-face { font-family: Montserrat; src: url('./Montserrat-SemiBold.ttf'); } 
+
+.magicalbutton {
+  padding: 6px 14px;
+font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #E7E7E7;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+display: block; margin-left: auto; margin-right: auto;
+}
+
+.magicalbutton:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+input[type=text]{
+font-family: 'Montserrat', sans-serif;
+    width:50%;
+    border:0px solid #aaa;
+    border-radius:40px;
+    margin:8px 0;
+    outline:none;
+    padding:10px;
+    box-sizing:border-box;
+    transition:.3s;
+    font-size: 20px;
+  }
+  
+  input[type=text]:focus{
+    border-color:#42ffc0;
+    box-shadow:0 10px 30px 0 #636363;
+  }
+
+.searchbox {
+text-align: center;
+padding-top: 200px;
+}
+
+.appbox {
+font-family: 'Montserrat', sans-serif;
+  transition: box-shadow .3s;
+  border-radius: 20px;
+z-index: 99999999;
+  -webkit-border-radius:20px;-moz-border-radius:20px;
+  width:10%;
+  background-color:#E7E7E7;
+  margin: auto;
+  padding:10px;
+text-align: center;
+}
+.creatorbox {
+font-size: 10px;
+color:#454545;
+}
+.applink {
+font-size: 50px;
+color:#454545;
+}
+.imgbox {
+vertical-align:middle;
+margin-left: 0px;
+height:55px;
+border-radius: 50%;
+}
+.appbox:hover {
+cursor: pointer;
+  box-shadow: 0 15px 40px rgba(99, 99, 99, 0.9); 
+}
+.titlebox {
+display: block; margin-left: auto; margin-right: auto; width: 20%; padding: 0px;
+}
