@@ -1,0 +1,187 @@
+<head>
+    <title>OlexOS Browser</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@700&display=swap');
+</style>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 20;
+  left: 50;
+  width: auto;
+backdrop-filter: saturate(180%) blur(14px);
+  background:rgba(217, 217, 217,.8);
+border-radius: 100px;
+}
+
+.navbar:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar2 {
+  overflow: hidden;
+  position: fixed;
+  top: 20;
+  left: 0;
+  width: auto;
+border-radius: 100px;
+transition: filter .2s ease-out;
+}
+
+.navbar2:hover {
+cursor: pointer;
+  filter: drop-shadow(5px 5px 15px #222);
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+<body>
+<div onclick="myFunction()" class="navbar2">
+<a>
+<img src="./buttonnav.png" style="  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;border-radius:100px;width:80px;height:80px;"></a>
+</div>
+<div id="navbar" class="navbar">
+<a href="./home.html" target="browser">
+<img src="./browsernav.png" style="  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;border-radius:100px;width:220px;height:80px;">
+</a>
+<a>
+<img id="button" onclick="makeFullScreen()" src="./fullscreennav.png" style="cursor: pointer;  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;border-radius:100px;width:80px;height:80px;">
+</a>
+</div>
+    <style type="text/css">
+        html {
+            overflow: auto;
+        }
+          
+        html,
+        body,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+          
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
+  <script
+  document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey) {
+        event.preventDefault();
+      </script>
+<script
+  language="JavaScript">
+function disableCtrlKeyCombination(e)
+{
+//list all CTRL + key combinations you want to disable
+var forbiddenKeys = new Array('i', 'n', 'c', 'x', 'v', 'j' , 'w');
+var key;
+var isCtrl;
+if(window.event)
+{
+key = window.event.keyCode;     //IE
+if(window.event.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+else
+{
+key = e.which;     //firefox
+if(e.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+//if ctrl is pressed check if other key is in forbidenKeys array
+if(isCtrl)
+{
+for(i=0; i<forbiddenKeys.length; i++)
+{
+//case-insensitive comparation
+if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+{
+alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
+return false;
+}
+}
+}
+return true;
+}
+</script>
+<body  onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);" oncontextmenu="return false" onselectstart="return false" ondragstart="return false" </body>
+<body>
+</head>
+  
+    <iframe src="./home.html"
+            frameborder="0" 
+		name="browser"
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            scrolling="auto">
+  </iframe>
+<script>
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+    function requestFullScreen(element) {
+    // Supports most browsers and their versions.
+    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+
+    if (requestMethod) { // Native full screen.
+        requestMethod.call(element);
+    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}
+
+function makeFullScreen() {
+  document.querySelector('iframe').focus()
+    document.getElementsByTagName("iframe")[0].className = "fullScreen";
+    var elem = document.body;
+    requestFullScreen(elem);
+}
+  </script>
+  
