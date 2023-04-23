@@ -19,8 +19,8 @@ body {
   top: 0%;
   -ms-transform: translateY(30%);
   transform: translateY(30%);
-  height: 55%;
-  width: 70px;
+  height: 61%;
+  width: 69px;
   position: fixed;
   z-index: 99999999;
   top: 0;
@@ -57,15 +57,17 @@ body {
 <body>
 
 <div id="mySidenav" class="sidenav">
-<img style="padding: 0px 0px 0px 18px; height:22px;" src="https://bookmarklettest.jacsyn.repl.co/olexosgo.png">
+<img style="padding: 0px 0px 0px 18px; height:22px;" src="https://koolkat226.github.io/OlexOS/olexosgo//olexosgo.png">
 <br>
-<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/browser/index.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px; left:6%;
+<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://koolkat226.github.io/OlexOS/olexosgo/browse/index.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px; left:6%;
   margin: 0;
   position: absolute;
   top: 0%;
+  padding: 4px;
   -ms-transform: translateY(30%);
   transform: translateY(30%);
-  height: 58.5%;
+  resize: both;
+  height: 63%;
   width: 40%;
   position: fixed;
   z-index: 9999999;
@@ -74,15 +76,17 @@ body {
   background:rgba(217, 217, 217,.8); backdrop-filter: saturate(180%) blur(14px);
 
 '),a=document.getElementsByTagName('body')%5B0%5D,a.appendChild(b)%7D)).call(this)">
-<img src="https://bookmarklettest.jacsyn.repl.co/browsericon.png" alt="play" style="border-radius:100%;" width="50" height="50">
+<img src="https://koolkat226.github.io/OlexOS/olexosgo//browsericon.png" alt="play" style="border-radius:100%;" width="50" height="50">
 </a></p>
 <p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/clipboard/index.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px; left:6%;
   margin: 0;
   position: absolute;
   top: 0%;
+  padding: 4px;
   -ms-transform: translateY(30%);
   transform: translateY(30%);
-  height: 58.5%;
+  resize: both;
+  height: 63%;
   width: 40%;
   position: fixed;
   z-index: 9999999;
@@ -91,15 +95,17 @@ body {
   background:rgba(217, 217, 217,.8); backdrop-filter: saturate(180%) blur(14px);
 
 '),a=document.getElementsByTagName('body')%5B0%5D,a.appendChild(b)%7D)).call(this)">
-<img src="https://bookmarklettest.jacsyn.repl.co/clipboardicon.png" alt="play" style="border-radius:100%;" width="50" height="50">
+<img src="https://koolkat226.github.io/OlexOS/olexosgo//clipboardicon.png" alt="play" style="border-radius:100%;" width="50" height="50">
 </a></p>
-<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/open.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px;  left:6%;
+<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/library.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px;  left:6%;
   margin: 0;
   position: absolute;
   top: 0%;
+  padding: 4px;
   -ms-transform: translateY(30%);
   transform: translateY(30%);
-  height: 58.5%;
+  resize: both;
+  height: 63%;
   width: 40%;
   position: fixed;
   z-index: 9999999;
@@ -108,14 +114,15 @@ body {
   background:rgba(217, 217, 217,.8); backdrop-filter: saturate(180%) blur(14px);
 
 '),a=document.getElementsByTagName('body')%5B0%5D,a.appendChild(b)%7D)).call(this)">
-<img src="https://bookmarklettest.jacsyn.repl.co/storeicon.png" alt="play" style="border-radius:100%;" width="50" height="50">
+<img src="https://koolkat226.github.io/OlexOS/olexosgo//libraryicon.png" alt="play" style="border-radius:100%;" width="50" height="50">
 </a></p>
-<p><a onclick="document.getElementById('magic').remove();" href="#">
-<img src="https://bookmarklettest.jacsyn.repl.co/close.png" alt="close" width="50" height="23">
+<p><a onclick="document.getElementById('magic').remove();" style="cursor:pointer;">
+<img src="https://koolkat226.github.io/OlexOS/olexosgo//close.png" alt="close" width="50" height="23">
 </a></p>
-  <div class="divbutton">
-    <button type="button" style="display: none;" id="i">Hello 2</button>
-</div>
+<p><a onclick="document.getElementById('mySidenav').remove();" style="cursor:pointer;">
+<img src="https://koolkat226.github.io/OlexOS/olexosgo//logout.png" alt="close" width="50" height="23">
+</a></p>
+
 </div>
 
 
