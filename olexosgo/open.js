@@ -78,7 +78,7 @@ body {
 '),a=document.getElementsByTagName('body')%5B0%5D,a.appendChild(b)%7D)).call(this)">
 <img src="https://koolkat226.github.io/OlexOS/olexosgo//browsericon.png" alt="play" style="border-radius:100%;" width="50" height="50">
 </a></p>
-<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/clipboard/index.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px; left:6%;
+<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/goclipboard.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px; left:6%;
   margin: 0;
   position: absolute;
   top: 0%;
@@ -97,7 +97,7 @@ body {
 '),a=document.getElementsByTagName('body')%5B0%5D,a.appendChild(b)%7D)).call(this)">
 <img src="https://koolkat226.github.io/OlexOS/olexosgo//clipboardicon.png" alt="play" style="border-radius:100%;" width="50" height="50">
 </a></p>
-<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/home/library.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px;  left:6%;
+<p><a href="javascript:((function()%7Bvar a,b,c,d;c='https://olex.jacsyn.repl.co/golibrary.html',b=document.createElement('iframe'),b.setAttribute('allowfullscreen',d),b.setAttribute('src',c),b.setAttribute('id','magic'),b.setAttribute('style','border-radius: 20px; border:0px;  left:6%;
   margin: 0;
   position: absolute;
   top: 0%;
