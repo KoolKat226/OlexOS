@@ -63,7 +63,7 @@ transition: 0.3s;
 </head>
 
 <div id="olexgame">
-	<iframe src="https://www.google.com/webhp?igu=1&safe=active&ssui=on/"
+	<iframe src="https://olex.jacsyn.repl.co/system/browser/indexgoo.html"
 			frameborder="0"
 			width="100%"
 			height="100%"
