@@ -15,7 +15,7 @@ document.body.appendChild(div);
   height: 100%;
   margin-bottom: 0px;
   transition: 0.3s;
-z-index: 9997;
+z-index: 9993;
 background:rgba(217, 217, 217,.8); backdrop-filter: saturate(180%) blur(14px);
 		}
   .gameoptions {
