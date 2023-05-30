@@ -74,11 +74,7 @@ transition: 0.3s;
 </iframe>
 
 
-<div class="gameclose">
-<a style="cursor:pointer;">
-<img style="height:27px;position: relative; width:145px;" onclick="document.getElementById('olexgame').remove();" src="https://koolkat226.github.io/OlexOS/loadapp/closesoftware.png">
-</a>
-</div>
+
 
 
 
