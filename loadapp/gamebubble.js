@@ -69,7 +69,7 @@ transition: 0.3s;
 			height="100%"
       allowfullscreen
 			name="game"
-      id="game"
+      id="externalapp"
       class="game">
 </iframe>
 
