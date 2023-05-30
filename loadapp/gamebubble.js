@@ -88,3 +88,25 @@ transition: 0.3s;
   `;
 document.body.appendChild(div);
 
+var style = document.createElement("style");
+document.body.appendChild(style);
+  style.innerHTML = `
+.external {
+display:block;
+}
+
+.hideexternal {
+display:none;
+}
+`;
+  document.body.appendChild(style);
+
+var closebutton = document.getElementById("externalapp");
+closebutton.style.display = "block";
+
+var applibrary = document.getElementById("mainapps");
+applibrary.style.display = "none";
+
+var text = document.getElementById("hideappstext");
+text.style.display = "block";
+
