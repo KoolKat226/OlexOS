@@ -69,12 +69,16 @@ transition: 0.3s;
 			height="100%"
       allowfullscreen
 			name="game"
-      id="externalapp"
+      id="game"
       class="game">
 </iframe>
 
 
-
+<div class="gameclose">
+<a style="cursor:pointer;">
+<img style="height:27px;position: relative; width:145px;" onclick="document.getElementById('olexgame').remove();" src="https://koolkat226.github.io/OlexOS/loadapp/closesoftware.png">
+</a>
+</div>
 
 
 
@@ -83,26 +87,3 @@ transition: 0.3s;
 
   `;
 document.body.appendChild(div);
-
-var style = document.createElement("style");
-document.body.appendChild(style);
-  style.innerHTML = `
-.external {
-display:block;
-}
-
-.hideexternal {
-display:none;
-}
-`;
-  document.body.appendChild(style);
-
-var closebutton = document.getElementById("externalapp");
-closebutton.style.display = "block";
-
-var applibrary = document.getElementById("mainapps");
-applibrary.style.display = "none";
-
-var text = document.getElementById("hideappstext");
-text.style.display = "block";
-
