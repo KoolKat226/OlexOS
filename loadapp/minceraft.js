@@ -16,6 +16,7 @@ document.body.appendChild(div);
   margin-bottom: 0px;
   transition: 0.3s;
 z-index: 9992;
+background:rgba(217, 217, 217,.8); backdrop-filter: saturate(180%) blur(14px);
 		}
   .softwareoptions {
     overflow: hidden;
