@@ -1,5 +1,5 @@
         function openBlankWindow() {
-            var newWindow = window.open('about:blank', '_self');
+            var newWindow = window.open('about:blank', '_blank');
 
             newWindow.document.write(`
 <html>
