@@ -40,7 +40,7 @@ margin: auto;
 </head>
 
 <div id="externalsoftware">
-	<iframe src="https://olex.jacsyn.repl.co/system/browser/indexgoo.html"
+	<iframe src="https://www.google.com/webhp?igu=1&safe=active&ssui=on/"
 			frameborder="0"
 			width="100%"
 			height="100%"
